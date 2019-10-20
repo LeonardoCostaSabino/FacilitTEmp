@@ -1,3 +1,4 @@
 
-<div id="copyright text-right" class="text-center">© Copyright 2019 SOD-UNISUAM </div>
+<div id="copyright text-right" class="text-center text-color bg-black">© Copyright 2019 </div>
 <script src="{{asset('js/app.js')}}"></script>
+ 

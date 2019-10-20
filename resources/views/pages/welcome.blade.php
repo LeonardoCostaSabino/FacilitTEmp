@@ -1,672 +1,253 @@
 @extends('layouts.public')
 
 @section('content')
-<main role=main>
-<<<<<<< HEAD
-
-
-    <carrosel-component></carrosel-component>
- <!--
-=======
-    <carrosel-component imagem1="{{asset('images/1.jpg')}}"
-                        imagem2="{{asset('images/2.jpg')}}"
-                        imagem3="{{asset('images/3.jpg')}}"
-    ></carrosel-component>
->>>>>>> c8ce2da0545fb3ee3b17052aa43471c3866de59c
-      <div class=" marketing">
-     
-      <div class="row">
-          <div class="col-lg-4">
-            <img class="img-fluid img-responsive" style="width:auto%;" src="{{asset('images/npj.jpg')}}" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p class="text-justify">
-            O núcleo permite aos alunos dos cursos de Direito e Serviço Social relacionarem
-             conhecimentos teóricos à prática, e, assim, desenvolverem habilidades necessárias ao exercício profissional. Orientados por advogados e professores,
-              os alunos atendem pessoas carentes das comunidades do entorno das Unidades.
-O NPJ prioriza o atendimento nas áreas de Direito Civil, da Família, do Trabalho e
-Previdenciário, abordando o Direito Penal em casos de delitos de menor
- potencial ofensivo.</p>
-            <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
-              Abrir modal de demonstração
-            </button></p>
-
-            <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="TituloModalCentralizado">Título do modal</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="text-justify">
-                      O núcleo permite aos alunos dos cursos de Direito e Serviço Social relacionarem conhecimentos teóricos à prática, e, assim, desenvolverem habilidades necessárias ao exercício profissional. Orientados por advogados e professores, os alunos atendem pessoas carentes das comunidades do entorno das Unidades.
-                      O NPJ prioriza o atendimento nas áreas de Direito Civil, da Família, do Trabalho e Previdenciário, abordando o Direito Penal em casos de delitos de menor potencial ofensivo.
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Salvar mudanças</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded" src="{{asset('images/clesam.jpg')}}" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p class="text-justify">
-              DA CLESAM tem seu principal enfoque no treinamento e
-              capacitação prática dos alunos, sendo estes devidamente
-              orientados e supervisionados por professores da UNISUAM,
-               em suas áreas específicas de abrangência, orientando os
-                pacientes e usuários desde a prevenção, tratamento
-                propriamente dito, até reabilitação e manutenção da
-                qualidade de vida. O serviço é prestado à comunidade
-                carente da Zona da Leopoldina e adjacências, oferecendo
-                campo de prática profissional aos alunos dos cursos de
-                 Graduação e Pós-Graduação em Saúde.
-
-</p>
-
-<p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
-              Abrir modal de demonstração
-            </button></p>
-
-            <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="TituloModalCentralizado">Título do modal</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="text-justify">
-                    A CLESAM tem seu principal
-                    enfoque no treinamento e capacitação
-                    prática dos alunos, sendo estes devidamente
-                     orientados e supervisionados por professores
-                      da UNISUAM, em suas áreas específicas
-                      de abrangência, orientando os pacientes e
-                      usuários desde a prevenção, tratamento
-                      propriamente dito, até reabilitação e manutenção
-                      da qualidade de vida. O serviço é prestado à
-                       comunidade carente da Zona da Leopoldina e
-                       adjacências, oferecendo campo de prática
-                       profissional aos alunos dos cursos de Graduação
-                       e Pós-Graduação em Saúde.
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Salvar mudanças</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-          <div class="col-lg-4">
-            <img class="rounded" src="{{asset('images/napp.jpg')}}" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p class="text-justify">
-            A educação se modificou e vem se transformando. Por isso, a UNISUAM tem um
-             núcleo que estuda os atos de aprender e de ensinar. Dentro da UNISUAM, a
-              atuação do NAPP é entender e eliminar os fatores que interferem no
-               processo educacional, participando, junto com as lideranças
-               (coordenadores de curso, professores e representantes de turma) da
-               remoção destas barreiras. O professor deve estar preparado para
-               lidar com a questão da inclusão,
-             precisando ter consciência que o educando hoje é agente ativo no
-             processo educacional.</p>
-            <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
-              Abrir modal de demonstração
-            </button></p>
-
-            <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="TituloModalCentralizado">Título do modal</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <p class="text-justify">
-                    A educação se modificou e vem se transformando. Por isso, a UNISUAM tem um núcleo que estuda os atos de aprender e de ensinar. Dentro da UNISUAM, a atuação do NAPP é entender e eliminar os fatores que interferem no processo educacional, participando, junto com as lideranças (coordenadores de curso, professores e representantes de turma) da remoção destas barreiras. O professor deve estar preparado para lidar com a questão da inclusão, precisando ter consciência que o educando hoje é agente ativo no processo educacional.
-                    </p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    <button type="button" class="btn btn-primary">Salvar mudanças</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
--->
-        
-        <div class="marketing">
-          <div id="page-top">
-        <section class="bg-light page-section" id="portfolio">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Núcleos</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+<section class='bg-img'>
+<div class='container'> 
+		<div class='row text-color' style='min-height: 100vh;'>
+      <div class='col-md-5'>
+        <h1 class='vertical-text'>Sua plataforma otimizada para venda de 
+          <strong>
+            <br>Previdência Privada
+          </strong>
+        </h1>
+        <div class='div-options-white text-center' style='border-radius:15px; margin-top:5vh'>
+          <h5 style='color: #1ABC9C; padding: 3%;'>FAÇA SIMULAÇÃO DE PROPOSTA SIMPLIFICADA</h5>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-              <i class="fa fa-angle-up" style="font-size:100px;" ></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/napp.jpg" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>NAPP</h4>
-            <p class="text-muted">NAPP</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-<i class="fa fa-angle-up" style="font-size: 100px;"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/clesam.jpg" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>CLESAM</h4>
-            <p class="text-muted">CLESAM</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-<i class="fa fa-angle-up" style="font-size: 100px;"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/nhd.jpg" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>NHD</h4>
-            <p class="text-muted">NHD</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-<i class="fa fa-angle-up" style="font-size: 100px;"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/npp.jpg" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>NPP</h4>
-            <p class="text-muted">NPP</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-<i class="fa fa-angle-up" style="font-size: 100px;"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/npj.jpg" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>NPJ</h4>
-            <p class="text-muted">NPJ</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-<i class="fa fa-angle-up" style="font-size: 100px;"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/nae.jpg" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>NAE</h4>
-            <p class="text-muted">NAE</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-<i class="fa fa-angle-up" style="font-size: 100px;"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/nri.jpg" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>NRI</h4>
-            <p class="text-muted">NRI</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-<i class="fa fa-angle-up" style="font-size: 100px;"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/spa.jpg" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>SPA</h4>
-            <p class="text-muted">SPA</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-<i class="fa fa-angle-up" style="font-size: 100px;"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/unati.jpg" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>UNATI</h4>
-            <p class="text-muted">UNATI</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-<i class="fa fa-angle-up" style="font-size: 100px;"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="./images/maker.png" style="width:400px;" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4>MAKER</h4>
-            <p class="text-muted">MAKER</p>
-          </div>
-        </div>
-
+    
+		</div>
 </div>
 </section>
-</div>
+		<div class='col-md-12 div-options-white'>
+      <br>
+
+      <!-- DIV PARA POSSÍVEIS ERROS DURANTE O PREENCHIMENTO -->
+			<div class='container'>
+        @if ($errors->any())
+          <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                  <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+          </div><br />
+        @endif
+      <form name='form' method='post' action="/add">
+        @csrf
+<!-- ====================================================================== -->
+
+
+          <!-- PRIMEIRA PARTE DO FORMULÁRIO -->
+        <h3 class='text-h3' style='padding-top:4%;'>Perfil<img style='float:right;width:3%' src='{{asset("images/Lapis1.png")}}'></h3>
+        
+          <div class='row text-center' style='padding: 2% 0% 6% 0%;'>
+            
+            <div class='col-md-6 text-left'>Nome do Cliente<br><input class='input-perfil-idade' type='text' name='nome'></div>
+            <div class='col-md-2 text-left'>Idade<br><input id="idade" class='input-perfil-idade' type='text' name='idade'></div>
+            <div class='col-md-4 text-left'>Sexo<br><input type='hidden' name='sexo' value=''><input id='h' type='button' onclick='funcao1()' value='Masculino' class='text-radio'><input id='m' type='button' onclick='funcao2()' value='Feminino' class='text-radio'></div>
+              
+              
+
+              <!-- JAVASCRIPT PARA ENVIAR O SEXO COM O FORM -->
+              <script>
+                var inputH = document.getElementById('h');
+                var inputM = document.getElementById('m');
+                var form = document.form.sexo;
+                
+                function funcao1(){
+                  if(inputM.classList.contains('text-radio_active'))
+                    inputM.classList.remove('text-radio_active');
+                  form.value='M';
+                  inputH.classList.add('text-radio_active');
+                }
+
+                function funcao2(){
+                  if(inputH.classList.contains('text-radio_active'))
+                    inputH.classList.remove('text-radio_active');
+                  form.value='F';
+                  inputM.classList.add('text-radio_active');
+                }
+              </script>
+              <!-- ========================================== -->
+              
+						
+					</div>
+			</div>
     </div>
+<!-- =============================================================================== -->
 
-    <div class="marketing">
-    <div id="page-top">
 
-    <!-- Portfolio Modals -->
 
-  <!-- Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <!-- <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div> -->
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/napp.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+                <!-- PREENCHIMENTOS ESPECÍFICOS DO PERFIL DO CLIENTE -->
+    <div class='col-md-12 div-options-green'>
+			<br>
+			<div class='container'>
+				<h3 class='text-h3 text-color'>Objetivos do Cliente</h3>
+					<div class='row text-center' style='padding: 3% 3% 3% 3%;'>
+          
+                <input type='hidden' name='perfil' value=>
+
+              <div class='col-md-4 col-sm-4'><input onclick='ffuncao1()' type='button' name='bt1' class='button3'></div>
+              <div class='col-md-4 col-sm-4'><input onclick='ffuncao2()' type='button' name='bt2' class='button3'></div>
+              <div class='col-md-4 col-sm-4'><input onclick='ffuncao3()' type='button' name='bt3' class='button3'></div>
+            
+
+
+
+              <!-- JAVASCRIPT PARA ENVIAR O PERFIL COM O FORM -->
+              <script>
+                  var final = document.form.perfil;
+                  var escolhaPerfil1 = document.form.bt1;
+                  var escolhaPerfil2 = document.form.bt2;
+                  var escolhaPerfil3 = document.form.bt3;
+
+                  function ffuncao1(){
+                    if(escolhaPerfil2.classList.contains('button3_active'))
+                      escolhaPerfil2.classList.remove('button3_active');
+                    else if(escolhaPerfil3.classList.contains('button3_active'))
+                      escolhaPerfil3.classList.remove('button3_active');
+
+                      escolhaPerfil1.classList.add('button3_active');
+                      final.value="perfil1";
+                  }
+
+                  function ffuncao2(){
+                    if(escolhaPerfil1.classList.contains('button3_active'))
+                      escolhaPerfil1.classList.remove('button3_active');
+                    else if(escolhaPerfil3.classList.contains('button3_active'))
+                      escolhaPerfil3.classList.remove('button3_active');
+
+                      escolhaPerfil2.classList.add('button3_active');
+                      final.value="perfil2";
+                  }
+
+                  function ffuncao3(){
+                    if(escolhaPerfil1.classList.contains('button3_active'))
+                      escolhaPerfil1.classList.remove('button3_active');
+                    else if(escolhaPerfil2.classList.contains('button3_active'))
+                      escolhaPerfil2.classList.remove('button3_active');
+
+                      escolhaPerfil3.classList.add('button3_active');
+                      final.value="perfil3";
+                  }
+                </script>
+                <!-- ===================================================================== -->
+
+
+					</div>
+			</div>
     </div>
-  </div>
+<!-- ========================================================================================== -->
 
-  <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/clesam.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                <!-- PREENCHIMENTO DOS CAMPOS COM RELAÇÃO DIRETA COM OS VALORES -->
+    <div class='col-md-12 div-options-white'>
+			<br>
+			<div class='container'>
+				<h3 class='text-h3' style='padding-top:3%'>Dados para calculo<img style='float:right;width:3%' src='{{asset("images/Lapis2.png")}}'></h3>
+					<div class='row text-center' style='padding: 3% 0% 6% 0%;'>
+						
+              <div class='col-md-3 text-left'>Tábua Aturial na Compra de Renda<br><input class='input-perfil-plano' type='text' name='tabulaAtur' value='AT-2000'></div>
+              <div class='col-md-3 text-left'>Taxa de Juros na Compra de Renda<br><input class='input-perfil-plano' type='text' name='jurosCompra' value='0%'></div>
+              <div class='col-md-3 text-left'>Rentabilidade Anual Estimada<br><input class='input-perfil-plano' type='text' name='rentAnualEst' value='4%'></div>
+              <div class='col-md-3 text-left'>Idade de Aposentadoria<br><input id="idade_F" class='input-perfil-plano' type='text' name='idade_aposentado'></div>
+						
+					</div>
+			</div>
     </div>
-  </div>
+    <div class='col-md-12 div-options-green'>
+			<br>
+			<div class='container'>
+				<h3 class='text-h3' style='padding-top:3%'>Composição da reserva<img style='float:right;width:3%' src='{{asset("images/Lapis1.png")}}'></h3>
+					<div class='row text-center' style='padding: 3% 0% 6% 0%;'>
+						
+              <div id='1' class='col-md-4 text-left'>Contribuição Mensal<br><input id='contribuicao_mensal' onclick='esconderContribuicao_mensal()' class='input-perfil-reserva' type='number' name='contribuicao_mensal'></div>
+              <div id='2' class='col-md-4 text-left'>Quanto receber por mês<br><input id='valor_mensal' onclick='esconderValor_mensal()' class='input-perfil-reserva' type='text' name='valor_mensal'></div>
+              <div id='3' class='col-md-4 text-left'>Valor Acumulado<br><input id='final_desejado' onclick='esconderFinal_desejado()' class='input-perfil-reserva' type='text' name='valor_acumulado'></div>
+              <input class='text-radio-send' type='button' onclick='limpaOpcao()' name='limpa' value='Limpar'>
+              <div class='col-md-12 text-left' style='padding-top:8%'>Reserva Estimada<br><input class='input-perfil-reserva' type='text' name='reservaEst' value=''></div>
+            
+              <script>
 
-  <!-- Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/nhd.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+                function calcula(){
+               var c = document.getElementById('contribuicao_mensal').value;
+              //  alert(c);
+               var i = 4;
+               var t = document.getElementById('idade_F').value - document.getElementById('idade').value;
+
+               var result = c*((1+i)^t);
+               
+               document.form.reservaEst.value = result;
+
+            
+                }
+              </script>
+						
+					</div>
+			</div>
     </div>
-  </div>
+    
+<!-- ================================================================================================== -->
 
-  <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/npp.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/npj.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/nae.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>      
+                <!-- BUTTON SUBMIT -->
+    <div class='col-md-12 div-options-white'  onclick='calcula()'>
+			<div class='container'>
+					<div class='row text-center' style='padding: 6% 0% 6% 0%;'>
+						<button class='text-radio-send'>Fazer Simulação</button>
+					</div>
+			</div>
+		</div>
+    <!-- ================================================================= -->
+    </form>
 
 
-  <!-- Modal 7 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/nri.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <!-- JAVASCRIP BLOQUEIA OS CAMPOS QUE SÃO EXCLUDENTES -->
+    <script>
+      var divcontribuicao_mensal = document.getElementById('1');
+      var divvalorMensal = document.getElementById('2');
+      var divfinal_desejado = document.getElementById('3');
+      var contribuicao_mensal = document.form.contribuicao_mensal;
+      var valorMensal = document.form.valor_mensal;
+      var final_desejado = document.form.valor_acumulado;
+      var limpar = document.form.limpa;
 
-  <!-- Modal 7 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/spa.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+      function limpaOpcao(){
+        divvalorMensal.style.display = "";
+        divfinal_desejado.style.display = "";
+        divcontribuicao_mensal.style.display = "";
+        contribuicao_mensal.value='';
+        valorMensal.value='';
+        final_desejado.value='';
+      }
 
-  <!-- Modal 8 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/unati.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+      function esconderContribuicao_mensal() {
+        divvalorMensal.style.display = "none";
+        divfinal_desejado.style.display = "none";
+        valorMensal.value="0";
+        final_desejado.value="0";
+      }
 
-  <!-- Modal 8 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="./images/maker.png" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-<i class="fa fa-angle-up" style="font-size: 20px;"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+      function esconderValor_mensal() {
+        divcontribuicao_mensal.style.display = "none";
+        divfinal_desejado.style.display = "none";
+        contribuicao_mensal.value="0";
+        final_desejado.value="0";
+      }
 
-    <script src="./js/agency.min.js"></script>
-    <script src="./js/agency.js"></script>
+      function esconderFinal_desejado() {
+        divcontribuicao_mensal.style.display = "none";
+        divvalorMensal.style.display = "none";
+        contribuicao_mensal.value="0";
+      valorMensal.value="0";
+      }
+</script>	
+<!-- ========================================================== -->
 
-    <script src="./js/jqBootstrapValidation.js"></script>
 
-      </main>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 @stop
-

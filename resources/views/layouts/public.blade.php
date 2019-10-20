@@ -4,16 +4,16 @@
     @include('public.head')
 </head>
 <body>
-<div>
-    <header>
+
+    <!-- <header>
         @include('public.header')
-    </header>
-    <div id="app">
+    </header> -->
+    <div id="root">
         @yield('content')
     </div>
     <footer>
         @include('default.footer')
     </footer>
-</div>
+
 </body>
 </html>

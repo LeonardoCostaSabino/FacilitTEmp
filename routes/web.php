@@ -16,27 +16,11 @@ Route::get('/', function () {
     return view('pages.welcome');
 });
 
-Route::get('/sobre', function () {
-    return view('pages.sobre');
-});
+Route::get('/segunda', function () {
+    return view('pages.second');
+})->name('segunda');
 
-Route::get('/funcoes', function () {
-    return view('pages.funcoesSOD');
-});
+Route::post('/add', 'ClienteController@store');
 
-Route::get('/localizar', function () {
-    return view('pages.localizar');
-});
-
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-//Route::get('/localizar', 'LocalizadorController@index')->name('localizar');
-
-Route::get('/logout', function (){
-    Auth::logout();
-    return redirect()->route('login');
-});
+Route::resource('clientes', 'ClienteController');
 
